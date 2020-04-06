@@ -1,5 +1,10 @@
   // KADANE ALGO 
-  
+
+// IT WORKS FOR POSITIVE AND NEGATIVE NUMBER 
+
+// FIND THE MAXIMUM CONTINOUS ELEMENTS WHICH ADD UPTO MAXIMUM SUM 
+
+
    public int maxSubArray(int[] nums) {
         int max =  Integer.MIN_VALUE;
         int min = 0;
@@ -19,3 +24,7 @@
         return max;  
     }
 	
+TEST CASE 
+
+1. [-2,1,-3,4,-1,2,1,-5,4];
+
